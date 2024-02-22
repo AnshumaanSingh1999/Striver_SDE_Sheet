@@ -1,8 +1,7 @@
 /*
 Accepted
 */
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 class check_for_anagrams{
     public boolean isAnagram(String s, String t) {
         int c=0;
