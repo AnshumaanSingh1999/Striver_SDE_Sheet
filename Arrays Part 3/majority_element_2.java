@@ -6,8 +6,6 @@ public class majority_element_2 {
     public List<Integer> majorityElement(int[] nums) {
         float l=nums.length/3;
         ArrayList<Integer> al=new ArrayList<>();
-        int m=0;
-        int e=0;
         HashMap<Integer,Integer> hm=new HashMap<>();
         for(int x:nums){
             if(hm.containsKey(x)){
