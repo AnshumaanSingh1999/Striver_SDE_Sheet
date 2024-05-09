@@ -10,7 +10,7 @@ class next_smaller_element{
         int x=0;
         for(int i=0;i<l;i++){
             int m=-1;
-            j=i;
+            j=i-1;
             while(j>=0){
                 if(A[j]<A[i]){
                     m=A[j];
