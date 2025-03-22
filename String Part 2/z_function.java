@@ -4,8 +4,7 @@ Accepted
 import java.util.Scanner;
 public class z_function {
     public int strStr(String haystack, String needle) {
-        int occurrence=-1;
-        occurrence=haystack.indexOf(needle);
+        int occurrence=haystack.indexOf(needle);
         return occurrence;
     }
     public static void main(String[] args) {
